@@ -3,11 +3,6 @@
 import os
 import sys
 
-import requests
-from bs4 import BeautifulSoup
-from apps.main.core import token
-import json
-
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Rezka.settings')
